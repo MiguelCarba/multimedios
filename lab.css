@@ -1,0 +1,73 @@
+
+        .header{
+            background-color: #212F3C;
+            padding: 10px;
+            height: 150px;
+            text-align: center;
+            color: white
+        }
+
+        .centro{
+            background-color: rgb(61, 214, 179);
+            height: 550px;
+            border: 2px solid;
+            border-color: black;
+        }
+
+        .foto1{
+            background-color: #2E4053;
+            float: left;
+            height: 100%;
+
+        }
+
+        .foto1 img {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border: 2px solid black;
+        }
+
+        .historia{
+            background-color: #85929E;
+            float: left;
+            height: 100%;
+            font-size: 22px;
+            color: whitesmoke
+        }
+
+        .foto2{
+           background-color: #2E4053; 
+           float: left;
+           height: 100%;
+        }
+
+        .foto2 img {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border: 2px solid black;
+        }
+
+        .footer{
+            background-color: #212F3C;
+            padding: 5px;
+            height: 100px;
+            text-align: center;
+            color: white
+        }
+
+        .col3{
+            width: 25%;
+        }
+
+        .columna2{
+            width: 50%;
+        }
+
+
+        
+        
+
