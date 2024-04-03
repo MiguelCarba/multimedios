@@ -1,8 +1,8 @@
 .container {
-    width: 100%; /* Modificado para que ocupe toda la pantalla */
-    margin: 0; /* Eliminado el margen para evitar espacios en blanco */
+    width: 100%;
+    margin: 0;
     padding: 10px;
-    box-sizing: border-box; /* Incluir el relleno y el borde en el ancho total del contenedor */
+    box-sizing: border-box;
 }
 
 .header{
@@ -17,14 +17,14 @@
     background-color: #2E4053;
     border: 2px solid black;
     overflow: hidden;
-    box-sizing: border-box; /* Incluir el borde en el ancho total del elemento */
+    box-sizing: border-box;
 }
 
 .foto1, .foto2 {
     background-color: #2E4053;
     float: left;
-    height: auto; /* Modificado para hacerlo más responsivo */
-    width: 25%; /* Cambiado para hacerlo más responsivo */
+    height: auto;
+    width: 25%;
     box-sizing: border-box;
 }
 
@@ -49,7 +49,7 @@
 .historia {
     background-color: #2E4053;
     float: left;
-    font-size: 22px; /* Modificado para hacerlo más responsivo */
+    font-size: 22px;
     color: whitesmoke;
     overflow: auto;
 
