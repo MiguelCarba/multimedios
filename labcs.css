@@ -1,0 +1,76 @@
+.container {
+    width: 100%; /* Modificado para que ocupe toda la pantalla */
+    margin: 0; /* Eliminado el margen para evitar espacios en blanco */
+    padding: 10px;
+    box-sizing: border-box; /* Incluir el relleno y el borde en el ancho total del contenedor */
+}
+
+.header{
+    background-color: #212F3C;
+    padding: 10px;
+    height: 150px;
+    text-align: center;
+    color: white;
+}
+
+.centro{
+    background-color: #2E4053;
+    border: 2px solid black;
+    overflow: hidden;
+    box-sizing: border-box; /* Incluir el borde en el ancho total del elemento */
+}
+
+.foto1, .foto2 {
+    background-color: #2E4053;
+    float: left;
+    height: auto; /* Modificado para hacerlo más responsivo */
+    width: 25%; /* Cambiado para hacerlo más responsivo */
+    box-sizing: border-box;
+}
+
+.foto1 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: -15px;
+    border: 2px solid black;
+    margin-bottom: -20px;
+}
+
+.foto2 img{
+
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 2px solid black;
+
+}
+
+.historia {
+    background-color: #2E4053;
+    float: left;
+    font-size: 22px; /* Modificado para hacerlo más responsivo */
+    color: whitesmoke;
+    overflow: auto;
+
+}
+
+.footer{
+    background-color: #212F3C;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    word-wrap: break-word;
+}
+
+.col1 {
+    width: 100%;
+}
+
+.columna2{
+    width: 50%;
+}
+
+.col3{
+    width: 25%;
+}
